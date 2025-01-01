@@ -133,7 +133,7 @@ button:focus { outline: none; }
     font-weight: 400;
     font-size: 1em;
 	vertical-align: middle;
-    width: 130px; 
+    width: 60px; 
 	position: relative;
 }
 
@@ -144,9 +144,9 @@ button:focus { outline: none; }
     font-weight: 400;
     font-size: 0.8em;
 	vertical-align: middle;
-    width: 130px; 
+    width: 60px; 
 	position: relative;
-	bottom: 10px;
+	bottom: 11px;
 }
 
 .cd-slider-nav .nav-item.selected .nav-link,
@@ -541,6 +541,10 @@ figure.effect-sadie:hover p {
     position: relative;
     overflow: hidden;
     text-align: center;
+	/*
+	add this here if you want to add margins between images and separate them
+	margin: 5px;
+	padding: 5px;*/
 }
 
 .grid-item figure img {

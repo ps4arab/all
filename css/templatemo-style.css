@@ -95,13 +95,15 @@ a:focus {
 
 .navbar-toggler {
 	float: right;
-	font-size: 1.75rem;
-	padding: 0.75rem;
+	font-size: 1.50rem;
+	padding-right: 6.5rem;
+	padding-left: 1rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
 	background: rgba(255,255,255,0.7);
 	border-radius: 0;
 	position: relative;
-	right: 10px;
-	top: 5px;
+	right: 17px;
 }
 
 button:focus { outline: none; }
@@ -743,4 +745,38 @@ figure.effect-sadie:hover p {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.tm-2-col-textbox-2 { margin-right: 15px; }
 	#google-map { height: 520px; }
+}
+
+.views {
+	background-color: transparent;
+	position: relative;
+	bottom: 60px;
+	right: 20px;
+	height: 6px;
+}
+.search_box {
+	width: 60px;
+	display: inline;
+}
+.search {
+	display: inline;
+}
+.form2 {
+	display: inline;
+}
+.navbar-brand {
+	display: inline;
+}
+.navbar-nav {
+	display: inline;
+}
+.span {
+	display: inline;
+}
+@media only screen and (max-width: 535px) {
+.search_box {
+	width: 60px;
+	display: inline;
+	zoom: 75%;
+}
 }
